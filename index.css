@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-size: 40px; */
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    text-align: center;
+     margin-top: 10%;
+    background-color:rgb(255, 0, 170);
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+     
+}
+h1{
+    color: rgb(15, 158, 224);
+    margin-bottom: 40px;
+}
+input{
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #000;
+}
+#input-felid{
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+} 
+
+button{
+    background: linear-gradient(90deg, #00bdff, #0079ff);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    animation: netflix 1s linear infinite;
+}
+
+@keyframes netflix{
+    0%{
+        background: linear-gradient(0deg, #00bdff, #0079ff);}
+    12%{
+        background: linear-gradient(45deg, #00bdff, #0079ff);}
+    24%{
+        background: linear-gradient(95deg, #00bdff, #0079ff);}
+    36%{
+        background: linear-gradient(145deg, #00bdff, #0079ff);}
+    48%{
+        background: linear-gradient(195deg, #00bdff, #0079ff);}
+    60%{
+        background: linear-gradient(245deg, #00bdff, #0079ff);}
+    72%{
+        background: linear-gradient(295deg, #00bdff, #0079ff);}
+    100%{
+        background: linear-gradient(360deg, #00bdff, #0079ff);}
+}
+#output{
+    width:300px;
+    height: 130px;
+    /* border: 1px solid white; */
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0px 3px 10px  #00bdff;
+    border: none;
+    text-align: center;
+}
